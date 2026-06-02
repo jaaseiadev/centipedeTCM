@@ -1,0 +1,99 @@
+# Completed Test Cases
+
+| Test Case ID | Test Case Title | Domain | Priority | Status | Tester | Date Executed | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| AUTH-0001 | Google OAuth login redirects mathlete correctly | Authentication Testing | High | Not Started |  |  |  |
+| AUTH-0002 | Email and password login redirects by profile state | Authentication Testing | High | Not Started |  |  |  |
+| AUTH-0003 | Strict single-session enforcement replaces old session | Authentication Testing | High | Not Started |  |  |  |
+| AUTH-0004 | User logout clears protected access | Authentication Testing | High | Not Started |  |  |  |
+| AUTH-0005 | Forgot password request sends recovery flow | Authentication Testing | Medium | Not Started |  |  |  |
+| PROF-0001 | Mathlete completes required profile | Profile Testing | High | Not Started |  |  |  |
+| PROF-0002 | Mathlete updates school and grade level | Profile Testing | Medium | Not Started |  |  |  |
+| PROF-0003 | Incomplete profile blocks competition registration | Profile Testing | High | Not Started |  |  |  |
+| PROF-0004 | User cannot mutate role from settings | Profile Testing | High | Not Started |  |  |  |
+| PROF-0005 | Complete profile redirects away from setup page | Profile Testing | Medium | Not Started |  |  |  |
+| ORGAPP-0001 | Organizer submits eligibility application | Organizer Application Testing | High | Not Started |  |  |  |
+| ORGAPP-0002 | Organizer application requires legal consent | Organizer Application Testing | High | Not Started |  |  |  |
+| ORGAPP-0003 | Organizer application requires personal and organization data | Organizer Application Testing | High | Not Started |  |  |  |
+| ORGAPP-0004 | Rejected organizer account remains blocked | Organizer Application Testing | High | Not Started |  |  |  |
+| ORGAPP-0005 | Applicant status lookup shows safe fields only | Organizer Application Testing | Medium | Not Started |  |  |  |
+| PBANK-0001 | Organizer creates a problem bank | Problem Bank Testing | High | Not Started |  |  |  |
+| PBANK-0002 | Organizer adds multiple choice problem | Problem Bank Testing | High | Not Started |  |  |  |
+| PBANK-0003 | Organizer adds true or false problem | Problem Bank Testing | Medium | Not Started |  |  |  |
+| PBANK-0004 | Organizer adds numeric problem with accepted answers | Problem Bank Testing | High | Not Started |  |  |  |
+| PBANK-0005 | Invalid problem data cannot be saved | Problem Bank Testing | High | Not Started |  |  |  |
+| COMP-0001 | Organizer creates scheduled individual competition | Competition Wizard Testing | High | Not Started |  |  |  |
+| COMP-0002 | Organizer cannot publish incomplete competition | Competition Wizard Testing | High | Not Started |  |  |  |
+| COMP-0003 | Organizer creates scheduled team competition | Competition Wizard Testing | High | Not Started |  |  |  |
+| COMP-0004 | Organizer creates open competition with attempt limit | Competition Wizard Testing | Medium | Not Started |  |  |  |
+| COMP-0005 | Team competition validates team size and capacity | Competition Wizard Testing | High | Not Started |  |  |  |
+| SCORE-0001 | Organizer configures scoring rules | Scoring Rules Testing | Medium | Not Started |  |  |  |
+| SCORE-0002 | Organizer selects open competition grading policy | Scoring Rules Testing | Medium | Not Started |  |  |  |
+| SCORE-0003 | Difficulty-based scoring applies correct points | Scoring Rules Testing | High | Not Started |  |  |  |
+| SCORE-0004 | Custom point scoring applies configured values | Scoring Rules Testing | High | Not Started |  |  |  |
+| SCORE-0005 | Tie-breaker ranks earliest final submission higher | Scoring Rules Testing | Medium | Not Started |  |  |  |
+| TEAM-0001 | Mathlete creates a team | Team Management Testing | High | Not Started |  |  |  |
+| TEAM-0002 | Team leader invites member | Team Management Testing | Medium | Not Started |  |  |  |
+| TEAM-0003 | Invited member accepts team invitation | Team Management Testing | High | Not Started |  |  |  |
+| TEAM-0004 | Team leader removes unlocked member | Team Management Testing | Medium | Not Started |  |  |  |
+| TEAM-0005 | Registered team roster is locked from changes | Team Management Testing | High | Not Started |  |  |  |
+| SEARCH-0001 | Mathlete searches upcoming competitions | Competition Search Testing | Medium | Not Started |  |  |  |
+| SEARCH-0002 | Mathlete views competition description | Competition Search Testing | Medium | Not Started |  |  |  |
+| SEARCH-0003 | Mathlete views upcoming competition list | Competition Search Testing | Medium | Not Started |  |  |  |
+| SEARCH-0004 | Search with no match shows empty state | Competition Search Testing | Low | Not Started |  |  |  |
+| SEARCH-0005 | Competition cards show registration availability | Competition Search Testing | Medium | Not Started |  |  |  |
+| REG-0001 | Mathlete registers for individual competition | Competition Registration Testing | High | Not Started |  |  |  |
+| REG-0002 | Duplicate individual registration is blocked | Competition Registration Testing | High | Not Started |  |  |  |
+| REG-0003 | Team leader registers team for team competition | Competition Registration Testing | High | Not Started |  |  |  |
+| REG-0004 | Non-leader cannot register team | Competition Registration Testing | High | Not Started |  |  |  |
+| REG-0005 | Withdrawal after attempt exists is blocked | Competition Registration Testing | High | Not Started |  |  |  |
+| ARENA-0001 | Mathlete enters scheduled competition after start | Mathlete Arena Testing | High | Not Started |  |  |  |
+| ARENA-0002 | Mathlete answers numeric question using math notation | Mathlete Arena Testing | High | Not Started |  |  |  |
+| ARENA-0003 | Arena entry is disabled before server start time | Mathlete Arena Testing | High | Not Started |  |  |  |
+| ARENA-0004 | Mathlete answers multiple choice question and reviews summary | Mathlete Arena Testing | High | Not Started |  |  |  |
+| ARENA-0005 | Timer expiration auto-submits attempt | Mathlete Arena Testing | High | Not Started |  |  |  |
+| NOTIF-0001 | Mathlete receives registration confirmation notification | Notifications Testing | Medium | Not Started |  |  |  |
+| NOTIF-0002 | Mathlete receives schedule update notification | Notifications Testing | Medium | Not Started |  |  |  |
+| NOTIF-0003 | Organizer announcement appears for registered users | Notifications Testing | Medium | Not Started |  |  |  |
+| NOTIF-0004 | Notification dropdown shows readable content | Notifications Testing | Medium | Not Started |  |  |  |
+| NOTIF-0005 | Duplicate notifications are not created for same event | Notifications Testing | Medium | Not Started |  |  |  |
+| CAL-0001 | Calendar displays scheduled competitions | Calendar Testing | Medium | Not Started |  |  |  |
+| CAL-0002 | Calendar uses local timezone | Calendar Testing | Medium | Not Started |  |  |  |
+| CAL-0003 | Current date is highlighted correctly | Calendar Testing | Low | Not Started |  |  |  |
+| CAL-0004 | Calendar event opens competition details | Calendar Testing | Medium | Not Started |  |  |  |
+| CAL-0005 | Updated schedule is reflected on calendar | Calendar Testing | Medium | Not Started |  |  |  |
+| LEAD-0001 | Published leaderboard is visible to participant | Leaderboard Testing | High | Not Started |  |  |  |
+| LEAD-0002 | Scheduled leaderboard is hidden before publish | Leaderboard Testing | High | Not Started |  |  |  |
+| LEAD-0003 | Team leaderboard ranks teams correctly | Leaderboard Testing | High | Not Started |  |  |  |
+| LEAD-0004 | Tie-breaker order is visible on leaderboard | Leaderboard Testing | Medium | Not Started |  |  |  |
+| LEAD-0005 | Open leaderboard is visible to participant context | Leaderboard Testing | Medium | Not Started |  |  |  |
+| HIST-0001 | Mathlete views published past results | History Testing | Medium | Not Started |  |  |  |
+| HIST-0002 | Hidden scheduled leaderboard shows allowed submission state | History Testing | Medium | Not Started |  |  |  |
+| HIST-0003 | Organizer views past competitions | History Testing | Medium | Not Started |  |  |  |
+| HIST-0004 | Published answer review shows score context | History Testing | Medium | Not Started |  |  |  |
+| HIST-0005 | Mathlete cannot view unrelated competition history | History Testing | High | Not Started |  |  |  |
+| DISP-0001 | Mathlete submits post-competition dispute | Dispute Testing | Medium | Not Started |  |  |  |
+| DISP-0002 | Organizer resolves dispute with notes | Dispute Testing | Medium | Not Started |  |  |  |
+| DISP-0003 | Organizer rejects dispute with notes | Dispute Testing | Medium | Not Started |  |  |  |
+| DISP-0004 | Accepted dispute recalculates affected score | Dispute Testing | High | Not Started |  |  |  |
+| DISP-0005 | Duplicate dispute for same problem is blocked | Dispute Testing | Medium | Not Started |  |  |  |
+| MON-0001 | Organizer views registered participants | Participant Monitoring Testing | Medium | Not Started |  |  |  |
+| MON-0002 | Organizer views active participant context | Participant Monitoring Testing | Medium | Not Started |  |  |  |
+| MON-0003 | Organizer sees team participant context | Participant Monitoring Testing | Medium | Not Started |  |  |  |
+| MON-0004 | Organizer monitors competition state changes | Participant Monitoring Testing | Medium | Not Started |  |  |  |
+| MON-0005 | Organizer cannot monitor unrelated competition | Participant Monitoring Testing | High | Not Started |  |  |  |
+| SEC-0001 | Unauthenticated user is redirected from protected page | Security Testing | High | Not Started |  |  |  |
+| SEC-0002 | Mathlete cannot access organizer dashboard | Security Testing | High | Not Started |  |  |  |
+| SEC-0003 | GET routes do not mutate state | Security Testing | High | Not Started |  |  |  |
+| SEC-0004 | Unsafe redirect target is rejected | Security Testing | High | Not Started |  |  |  |
+| SEC-0005 | Sensitive tokens are not exposed in URL or logs | Security Testing | High | Not Started |  |  |  |
+| UI-0001 | Role-based navigation links are displayed | UI Testing | Medium | Not Started |  |  |  |
+| UI-0002 | Math notation preview renders correctly | UI Testing | Medium | Not Started |  |  |  |
+| UI-0003 | Arena choices hide internal option IDs | UI Testing | Medium | Not Started |  |  |  |
+| UI-0004 | Error messages are clear and user-safe | UI Testing | Medium | Not Started |  |  |  |
+| UI-0005 | Dashboard profile menu shows correct links | UI Testing | Medium | Not Started |  |  |  |
+| PERF-0001 | Competition search loads within acceptable time | Performance Testing | Low | Not Started |  |  |  |
+| PERF-0002 | Arena page loads within acceptable time | Performance Testing | Low | Not Started |  |  |  |
+| PERF-0003 | Leaderboard loads within acceptable time | Performance Testing | Low | Not Started |  |  |  |
+| PERF-0004 | Notification dropdown opens without noticeable delay | Performance Testing | Low | Not Started |  |  |  |
+| PERF-0005 | Competition list remains usable with many records | Performance Testing | Low | Not Started |  |  |  |
