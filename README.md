@@ -1,120 +1,117 @@
 # CentipedeTCM
+> Test Case Management repository for Centipede / MathWiz Arena
 
-CentipedeTCM is the Markdown-based Test Case Management repository for the CSci 136 Software Engineering II project named Centipede.
-
-The system under test is MathWiz Arena, a secure web-based mathematics competition platform with mathlete and organizer workflows. This repository stores manual test cases grouped by testing domain. Admin testing and anti-cheat testing are intentionally omitted from this starter set.
-
-## Repository Structure
-
-Root files:
-
-- `.gitignore`
-- `LICENSE`
-- `README.md`
-- `completed-test-cases.md`
-
-Testing domains:
-
-- [Authentication Testing](Authentication%20Testing/)
-- [Profile Testing](Profile%20Testing/)
-- [Organizer Application Testing](Organizer%20Application%20Testing/)
-- [Problem Bank Testing](Problem%20Bank%20Testing/)
-- [Competition Wizard Testing](Competition%20Wizard%20Testing/)
-- [Scoring Rules Testing](Scoring%20Rules%20Testing/)
-- [Team Management Testing](Team%20Management%20Testing/)
-- [Competition Search Testing](Competition%20Search%20Testing/)
-- [Competition Registration Testing](Competition%20Registration%20Testing/)
-- [Mathlete Arena Testing](Mathlete%20Arena%20Testing/)
-- [Notifications Testing](Notifications%20Testing/)
-- [Calendar Testing](Calendar%20Testing/)
-- [Leaderboard Testing](Leaderboard%20Testing/)
-- [History Testing](History%20Testing/)
-- [Dispute Testing](Dispute%20Testing/)
-- [Participant Monitoring Testing](Participant%20Monitoring%20Testing/)
-- [Security Testing](Security%20Testing/)
-- [UI Testing](UI%20Testing/)
-- [Performance Testing](Performance%20Testing/)
-
-## Naming Conventions
-
-Folders use Title Case with spaces.
-
-Test case files use this format:
-
-```text
-<PREFIX>-<NNNN>_<area>_testing_<action_or_topic>.md
-```
-
-Examples:
-
-- `AUTH-0001_authentication_testing_google_login.md`
-- `TEAM-0001_team_management_testing_create_team.md`
-- `ARENA-0001_mathlete_arena_testing_enter_scheduled_competition.md`
-
-Prefixes:
-
-| Prefix | Domain |
-| --- | --- |
-| AUTH | Authentication Testing |
-| PROF | Profile Testing |
-| ORGAPP | Organizer Application Testing |
-| PBANK | Problem Bank Testing |
-| COMP | Competition Wizard Testing |
-| SCORE | Scoring Rules Testing |
-| TEAM | Team Management Testing |
-| SEARCH | Competition Search Testing |
-| REG | Competition Registration Testing |
-| ARENA | Mathlete Arena Testing |
-| NOTIF | Notifications Testing |
-| CAL | Calendar Testing |
-| LEAD | Leaderboard Testing |
-| HIST | History Testing |
-| DISP | Dispute Testing |
-| MON | Participant Monitoring Testing |
-| SEC | Security Testing |
-| UI | UI Testing |
-| PERF | Performance Testing |
-
-## Test Case Status Guide
-
-Use these values in `completed-test-cases.md`:
-
-- `Not Started`
-- `In Progress`
-- `Passed`
-- `Failed`
-- `Blocked`
-- `For Retest`
-- `Verified`
-
-## How To Add A New Test Case
-
-1. Choose the correct testing domain folder.
-2. Create a new Markdown file using the naming convention.
-3. Use the same template as the existing test cases.
-4. Write concrete preconditions, user actions, expected behavior, post-conditions, and notes.
-5. Add the new test case to `completed-test-cases.md` with status `Not Started`.
-
-## How To Update The Tracker
-
-After executing a test case, update `completed-test-cases.md`:
-
-1. Set the `Status` value.
-2. Add the tester name or initials.
-3. Add the execution date.
-4. Record short notes for defects, blocked setup, or retest details.
-
-## Starter Scope
-
-This starter set contains five focused manual test cases per testing domain. The selected cases are based on existing MathWiz Arena routes and supporting automated test coverage in the current Centipede codebase. Admin testing and anti-cheat testing remain excluded. Add more cases only if the target repository decides to expand beyond the current five-case category limit.
-
-## Git Commands For The New Repository
-
-```bash
-git init
-git add .
-git commit -m "initial test case management repository"
-git branch -M main
-git remote add origin https://github.com/[username]/CentipedeTCM.git
-git push -u origin main
-```
+ * [Authentication Testing](<./Authentication Testing>)  
+   * [AUTH-0001 Google OAuth login redirects mathlete correctly](<./Authentication Testing/AUTH-0001_authentication_testing_google_login.md>)  
+   * [AUTH-0002 Email and password login redirects by profile state](<./Authentication Testing/AUTH-0002_authentication_testing_email_password_login.md>)  
+   * [AUTH-0003 Strict single-session enforcement replaces old session](<./Authentication Testing/AUTH-0003_authentication_testing_single_session_enforcement.md>)  
+   * [AUTH-0004 User logout clears protected access](<./Authentication Testing/AUTH-0004_authentication_testing_logout.md>)  
+   * [AUTH-0005 Forgot password request sends recovery flow](<./Authentication Testing/AUTH-0005_authentication_testing_forgot_password.md>)  
+ * [Calendar Testing](<./Calendar Testing>)  
+   * [CAL-0001 Calendar displays scheduled competitions](<./Calendar Testing/CAL-0001_calendar_testing_display_scheduled_competitions.md>)  
+   * [CAL-0002 Calendar uses local timezone](<./Calendar Testing/CAL-0002_calendar_testing_local_timezone.md>)  
+   * [CAL-0003 Current date is highlighted correctly](<./Calendar Testing/CAL-0003_calendar_testing_current_date_highlight.md>)  
+   * [CAL-0004 Calendar event opens competition details](<./Calendar Testing/CAL-0004_calendar_testing_event_opens_details.md>)  
+   * [CAL-0005 Updated schedule is reflected on calendar](<./Calendar Testing/CAL-0005_calendar_testing_updated_schedule_reflected.md>)  
+ * [Competition Registration Testing](<./Competition Registration Testing>)  
+   * [REG-0001 Mathlete registers for individual competition](<./Competition Registration Testing/REG-0001_competition_registration_testing_individual_registration.md>)  
+   * [REG-0002 Duplicate individual registration is blocked](<./Competition Registration Testing/REG-0002_competition_registration_testing_duplicate_individual_blocked.md>)  
+   * [REG-0003 Team leader registers team for team competition](<./Competition Registration Testing/REG-0003_competition_registration_testing_team_leader_registers_team.md>)  
+   * [REG-0004 Non-leader cannot register team](<./Competition Registration Testing/REG-0004_competition_registration_testing_non_leader_blocked.md>)  
+   * [REG-0005 Withdrawal after attempt exists is blocked](<./Competition Registration Testing/REG-0005_competition_registration_testing_withdrawal_after_attempt_blocked.md>)  
+ * [Competition Search Testing](<./Competition Search Testing>)  
+   * [SEARCH-0001 Mathlete searches upcoming competitions](<./Competition Search Testing/SEARCH-0001_competition_search_testing_search_upcoming_competitions.md>)  
+   * [SEARCH-0002 Mathlete views competition description](<./Competition Search Testing/SEARCH-0002_competition_search_testing_view_description.md>)  
+   * [SEARCH-0003 Mathlete views upcoming competition list](<./Competition Search Testing/SEARCH-0003_competition_search_testing_upcoming_list.md>)  
+   * [SEARCH-0004 Search with no match shows empty state](<./Competition Search Testing/SEARCH-0004_competition_search_testing_no_match_empty_state.md>)  
+   * [SEARCH-0005 Competition cards show registration availability](<./Competition Search Testing/SEARCH-0005_competition_search_testing_registration_availability.md>)  
+ * [Competition Wizard Testing](<./Competition Wizard Testing>)  
+   * [COMP-0001 Organizer creates scheduled individual competition](<./Competition Wizard Testing/COMP-0001_competition_wizard_testing_create_scheduled_individual_competition.md>)  
+   * [COMP-0002 Organizer cannot publish incomplete competition](<./Competition Wizard Testing/COMP-0002_competition_wizard_testing_incomplete_publish_blocked.md>)  
+   * [COMP-0003 Organizer creates scheduled team competition](<./Competition Wizard Testing/COMP-0003_competition_wizard_testing_create_scheduled_team_competition.md>)  
+   * [COMP-0004 Organizer creates open competition with attempt limit](<./Competition Wizard Testing/COMP-0004_competition_wizard_testing_open_attempt_limit.md>)  
+   * [COMP-0005 Team competition validates team size and capacity](<./Competition Wizard Testing/COMP-0005_competition_wizard_testing_team_size_capacity_validation.md>)  
+ * [Dispute Testing](<./Dispute Testing>)  
+   * [DISP-0001 Mathlete submits post-competition dispute](<./Dispute Testing/DISP-0001_dispute_testing_submit_post_competition_dispute.md>)  
+   * [DISP-0002 Organizer resolves dispute with notes](<./Dispute Testing/DISP-0002_dispute_testing_organizer_resolves_with_notes.md>)  
+   * [DISP-0003 Organizer rejects dispute with notes](<./Dispute Testing/DISP-0003_dispute_testing_reject_with_notes.md>)  
+   * [DISP-0004 Accepted dispute recalculates affected score](<./Dispute Testing/DISP-0004_dispute_testing_accepted_recalculates_score.md>)  
+   * [DISP-0005 Duplicate dispute for same problem is blocked](<./Dispute Testing/DISP-0005_dispute_testing_duplicate_dispute_blocked.md>)  
+ * [History Testing](<./History Testing>)  
+   * [HIST-0001 Mathlete views published past results](<./History Testing/HIST-0001_history_testing_mathlete_past_results.md>)  
+   * [HIST-0002 Hidden scheduled leaderboard shows allowed submission state](<./History Testing/HIST-0002_history_testing_hidden_leaderboard_allowed_state.md>)  
+   * [HIST-0003 Organizer views past competitions](<./History Testing/HIST-0003_history_testing_organizer_past_competitions.md>)  
+   * [HIST-0004 Published answer review shows score context](<./History Testing/HIST-0004_history_testing_published_answer_review.md>)  
+   * [HIST-0005 Mathlete cannot view unrelated competition history](<./History Testing/HIST-0005_history_testing_unrelated_results_blocked.md>)  
+ * [Leaderboard Testing](<./Leaderboard Testing>)  
+   * [LEAD-0001 Published leaderboard is visible to participant](<./Leaderboard Testing/LEAD-0001_leaderboard_testing_published_results_visible.md>)  
+   * [LEAD-0002 Scheduled leaderboard is hidden before publish](<./Leaderboard Testing/LEAD-0002_leaderboard_testing_hidden_before_publish.md>)  
+   * [LEAD-0003 Team leaderboard ranks teams correctly](<./Leaderboard Testing/LEAD-0003_leaderboard_testing_team_ranking.md>)  
+   * [LEAD-0004 Tie-breaker order is visible on leaderboard](<./Leaderboard Testing/LEAD-0004_leaderboard_testing_tiebreaker_order.md>)  
+   * [LEAD-0005 Open leaderboard is visible to participant context](<./Leaderboard Testing/LEAD-0005_leaderboard_testing_open_participant_visibility.md>)  
+ * [Mathlete Arena Testing](<./Mathlete Arena Testing>)  
+   * [ARENA-0001 Mathlete enters scheduled competition after start](<./Mathlete Arena Testing/ARENA-0001_mathlete_arena_testing_enter_scheduled_competition.md>)  
+   * [ARENA-0002 Mathlete answers numeric question using math notation](<./Mathlete Arena Testing/ARENA-0002_mathlete_arena_testing_numeric_math_notation_answer.md>)  
+   * [ARENA-0003 Arena entry is disabled before server start time](<./Mathlete Arena Testing/ARENA-0003_mathlete_arena_testing_entry_disabled_before_start.md>)  
+   * [ARENA-0004 Mathlete answers multiple choice question and reviews summary](<./Mathlete Arena Testing/ARENA-0004_mathlete_arena_testing_multiple_choice_review.md>)  
+   * [ARENA-0005 Timer expiration auto-submits attempt](<./Mathlete Arena Testing/ARENA-0005_mathlete_arena_testing_timer_auto_submit.md>)  
+ * [Notifications Testing](<./Notifications Testing>)  
+   * [NOTIF-0001 Mathlete receives registration confirmation notification](<./Notifications Testing/NOTIF-0001_notifications_testing_registration_confirmation.md>)  
+   * [NOTIF-0002 Mathlete receives schedule update notification](<./Notifications Testing/NOTIF-0002_notifications_testing_schedule_update.md>)  
+   * [NOTIF-0003 Organizer announcement appears for registered users](<./Notifications Testing/NOTIF-0003_notifications_testing_organizer_announcement.md>)  
+   * [NOTIF-0004 Notification dropdown shows readable content](<./Notifications Testing/NOTIF-0004_notifications_testing_dropdown_readable_content.md>)  
+   * [NOTIF-0005 Duplicate notifications are not created for same event](<./Notifications Testing/NOTIF-0005_notifications_testing_duplicate_event_identity.md>)  
+ * [Organizer Application Testing](<./Organizer Application Testing>)  
+   * [ORGAPP-0001 Organizer submits eligibility application](<./Organizer Application Testing/ORGAPP-0001_organizer_application_testing_submit_application.md>)  
+   * [ORGAPP-0002 Organizer application requires legal consent](<./Organizer Application Testing/ORGAPP-0002_organizer_application_testing_required_consent.md>)  
+   * [ORGAPP-0003 Organizer application requires personal and organization data](<./Organizer Application Testing/ORGAPP-0003_organizer_application_testing_required_data.md>)  
+   * [ORGAPP-0004 Rejected organizer account remains blocked](<./Organizer Application Testing/ORGAPP-0004_organizer_application_testing_rejected_blocked.md>)  
+   * [ORGAPP-0005 Applicant status lookup shows safe fields only](<./Organizer Application Testing/ORGAPP-0005_organizer_application_testing_status_safe_fields.md>)  
+ * [Participant Monitoring Testing](<./Participant Monitoring Testing>)  
+   * [MON-0001 Organizer views registered participants](<./Participant Monitoring Testing/MON-0001_participant_monitoring_testing_view_registered_participants.md>)  
+   * [MON-0002 Organizer views active participant context](<./Participant Monitoring Testing/MON-0002_participant_monitoring_testing_active_participant_context.md>)  
+   * [MON-0003 Organizer sees team participant context](<./Participant Monitoring Testing/MON-0003_participant_monitoring_testing_team_context.md>)  
+   * [MON-0004 Organizer monitors competition state changes](<./Participant Monitoring Testing/MON-0004_participant_monitoring_testing_competition_state.md>)  
+   * [MON-0005 Organizer cannot monitor unrelated competition](<./Participant Monitoring Testing/MON-0005_participant_monitoring_testing_unrelated_competition_blocked.md>)  
+ * [Performance Testing](<./Performance Testing>)  
+   * [PERF-0001 Competition search loads within acceptable time](<./Performance Testing/PERF-0001_performance_testing_competition_search_load_time.md>)  
+   * [PERF-0002 Arena page loads within acceptable time](<./Performance Testing/PERF-0002_performance_testing_arena_page_load_time.md>)  
+   * [PERF-0003 Leaderboard loads within acceptable time](<./Performance Testing/PERF-0003_performance_testing_leaderboard_load_time.md>)  
+   * [PERF-0004 Notification dropdown opens without noticeable delay](<./Performance Testing/PERF-0004_performance_testing_notification_dropdown_delay.md>)  
+   * [PERF-0005 Competition list remains usable with many records](<./Performance Testing/PERF-0005_performance_testing_large_competition_list.md>)  
+ * [Problem Bank Testing](<./Problem Bank Testing>)  
+   * [PBANK-0001 Organizer creates a problem bank](<./Problem Bank Testing/PBANK-0001_problem_bank_testing_create_problem_bank.md>)  
+   * [PBANK-0002 Organizer adds multiple choice problem](<./Problem Bank Testing/PBANK-0002_problem_bank_testing_add_multiple_choice_problem.md>)  
+   * [PBANK-0003 Organizer adds true or false problem](<./Problem Bank Testing/PBANK-0003_problem_bank_testing_add_true_false_problem.md>)  
+   * [PBANK-0004 Organizer adds numeric problem with accepted answers](<./Problem Bank Testing/PBANK-0004_problem_bank_testing_numeric_multiple_accepted_answers.md>)  
+   * [PBANK-0005 Invalid problem data cannot be saved](<./Problem Bank Testing/PBANK-0005_problem_bank_testing_invalid_problem_data_blocked.md>)  
+ * [Profile Testing](<./Profile Testing>)  
+   * [PROF-0001 Mathlete completes required profile](<./Profile Testing/PROF-0001_profile_testing_complete_mathlete_profile.md>)  
+   * [PROF-0002 Mathlete updates school and grade level](<./Profile Testing/PROF-0002_profile_testing_update_school_grade_level.md>)  
+   * [PROF-0003 Incomplete profile blocks competition registration](<./Profile Testing/PROF-0003_profile_testing_incomplete_profile_blocks_registration.md>)  
+   * [PROF-0004 User cannot mutate role from settings](<./Profile Testing/PROF-0004_profile_testing_role_mutation_blocked.md>)  
+   * [PROF-0005 Complete profile redirects away from setup page](<./Profile Testing/PROF-0005_profile_testing_complete_profile_redirect.md>)  
+ * [Scoring Rules Testing](<./Scoring Rules Testing>)  
+   * [SCORE-0001 Organizer configures scoring rules](<./Scoring Rules Testing/SCORE-0001_scoring_rules_testing_configure_scoring_policy.md>)  
+   * [SCORE-0002 Organizer selects open competition grading policy](<./Scoring Rules Testing/SCORE-0002_scoring_rules_testing_open_competition_grading_policy.md>)  
+   * [SCORE-0003 Difficulty-based scoring applies correct points](<./Scoring Rules Testing/SCORE-0003_scoring_rules_testing_difficulty_based_scoring.md>)  
+   * [SCORE-0004 Custom point scoring applies configured values](<./Scoring Rules Testing/SCORE-0004_scoring_rules_testing_custom_point_scoring.md>)  
+   * [SCORE-0005 Tie-breaker ranks earliest final submission higher](<./Scoring Rules Testing/SCORE-0005_scoring_rules_testing_earliest_submission_tiebreaker.md>)  
+ * [Security Testing](<./Security Testing>)  
+   * [SEC-0001 Unauthenticated user is redirected from protected page](<./Security Testing/SEC-0001_security_testing_unauthenticated_protected_redirect.md>)  
+   * [SEC-0002 Mathlete cannot access organizer dashboard](<./Security Testing/SEC-0002_security_testing_mathlete_organizer_dashboard_blocked.md>)  
+   * [SEC-0003 GET routes do not mutate state](<./Security Testing/SEC-0003_security_testing_get_routes_do_not_mutate.md>)  
+   * [SEC-0004 Unsafe redirect target is rejected](<./Security Testing/SEC-0004_security_testing_unsafe_redirect_rejected.md>)  
+   * [SEC-0005 Sensitive tokens are not exposed in URL or logs](<./Security Testing/SEC-0005_security_testing_sensitive_tokens_not_exposed.md>)  
+ * [Team Management Testing](<./Team Management Testing>)  
+   * [TEAM-0001 Mathlete creates a team](<./Team Management Testing/TEAM-0001_team_management_testing_create_team.md>)  
+   * [TEAM-0002 Team leader invites member](<./Team Management Testing/TEAM-0002_team_management_testing_invite_member.md>)  
+   * [TEAM-0003 Invited member accepts team invitation](<./Team Management Testing/TEAM-0003_team_management_testing_accept_invitation.md>)  
+   * [TEAM-0004 Team leader removes unlocked member](<./Team Management Testing/TEAM-0004_team_management_testing_remove_unlocked_member.md>)  
+   * [TEAM-0005 Registered team roster is locked from changes](<./Team Management Testing/TEAM-0005_team_management_testing_locked_registered_roster.md>)  
+ * [UI Testing](<./UI Testing>)  
+   * [UI-0001 Role-based navigation links are displayed](<./UI Testing/UI-0001_ui_testing_role_based_navigation_links.md>)  
+   * [UI-0002 Math notation preview renders correctly](<./UI Testing/UI-0002_ui_testing_math_notation_preview.md>)  
+   * [UI-0003 Arena choices hide internal option IDs](<./UI Testing/UI-0003_ui_testing_arena_choices_hide_internal_ids.md>)  
+   * [UI-0004 Error messages are clear and user-safe](<./UI Testing/UI-0004_ui_testing_clear_safe_error_messages.md>)  
+   * [UI-0005 Dashboard profile menu shows correct links](<./UI Testing/UI-0005_ui_testing_dashboard_profile_menu_links.md>)  
