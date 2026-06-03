@@ -4,7 +4,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | AUTH-0001 | Google OAuth login redirects mathlete correctly | Authentication Testing | High | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; Google OAuth login redirected the mathlete correctly. |
 | AUTH-0002 | Email and password login redirects by profile state | Authentication Testing | High | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; email and password login redirected based on profile state. |
-| AUTH-0003 | Strict single-session enforcement replaces old session | Authentication Testing | High | Failed | @jaasedev | 2026-06-03 | Needs to be fixed. Old session was not terminated when logging in from a new device. |
+| AUTH-0003 | Strict single-session enforcement replaces old session | Authentication Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Verified previous token invalidated and active session hijacked. |
 | AUTH-0004 | User logout clears protected access | Authentication Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Session tokens cleanly destroyed, redirection proper. |
 | AUTH-0005 | Forgot password request sends recovery flow | Authentication Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Password recovery email arrived with working link within seconds. |
 | PROF-0001 | Mathlete completes required profile | Profile Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Form validated all required fields successfully. |
