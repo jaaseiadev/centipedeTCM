@@ -17,11 +17,11 @@
 | ORGAPP-0003 | Organizer application requires personal and organization data | Organizer Application Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | ORGAPP-0004 | Rejected organizer account remains blocked | Organizer Application Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | ORGAPP-0005 | Applicant status lookup shows safe fields only | Organizer Application Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PBANK-0001 | Organizer creates a problem bank | Problem Bank Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PBANK-0002 | Organizer adds multiple choice problem | Problem Bank Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PBANK-0003 | Organizer adds true or false problem | Problem Bank Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PBANK-0004 | Organizer adds numeric problem with accepted answers | Problem Bank Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PBANK-0005 | Invalid problem data cannot be saved | Problem Bank Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
+| PBANK-0001 | Organizer creates a problem bank | Problem Bank Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Created problem bank successfully and saved correctly in dashboard. |
+| PBANK-0002 | Organizer adds multiple choice problem | Problem Bank Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Options mapped and correctly identified the right answer key. |
+| PBANK-0003 | Organizer adds true or false problem | Problem Bank Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Boolean fields switch nicely, validation passes properly. |
+| PBANK-0004 | Organizer adds numeric problem with accepted answers | Problem Bank Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Number evaluations match acceptable threshold logic easily. |
+| PBANK-0005 | Invalid problem data cannot be saved | Problem Bank Testing | High | Failed | @jaasedev | 2026-06-03 | Needs to be implemented. Invalid data submission is uncaught correctly across fields. |
 | COMP-0001 | Organizer creates scheduled individual competition | Competition Wizard Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | COMP-0002 | Organizer cannot publish incomplete competition | Competition Wizard Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | COMP-0003 | Organizer creates scheduled team competition | Competition Wizard Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
