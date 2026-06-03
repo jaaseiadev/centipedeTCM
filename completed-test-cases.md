@@ -67,11 +67,11 @@
 | LEAD-0003 | Team leaderboard ranks teams correctly | Leaderboard Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Aggregated team scores match mathematically with members' performances. |
 | LEAD-0004 | Tie-breaker order is visible on leaderboard | Leaderboard Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Time-based tiebreakers are sorting identical scores appropriately. |
 | LEAD-0005 | Open leaderboard is visible to participant context | Leaderboard Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. General population views open tournament results smoothly. |
-| HIST-0001 | Mathlete views published past results | History Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| HIST-0002 | Hidden scheduled leaderboard shows allowed submission state | History Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| HIST-0003 | Organizer views past competitions | History Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| HIST-0004 | Published answer review shows score context | History Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| HIST-0005 | Mathlete cannot view unrelated competition history | History Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
+| HIST-0001 | Mathlete views published past results | History Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Previous season ranks display perfectly in the mathlete portal. |
+| HIST-0002 | Hidden scheduled leaderboard shows allowed submission state | History Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Read-only submission view is granted even when ranking is hidden. |
+| HIST-0003 | Organizer views past competitions | History Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Legacy competition history properly filtered in organizer specific view. |
+| HIST-0004 | Published answer review shows score context | History Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Scoring metrics accurately overlay individual answer choices in historical view. |
+| HIST-0005 | Mathlete cannot view unrelated competition history | History Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Solid isolation implemented, cannot snoop across boundaries. |
 | DISP-0001 | Mathlete submits post-competition dispute | Dispute Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | DISP-0002 | Organizer resolves dispute with notes | Dispute Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | DISP-0003 | Organizer rejects dispute with notes | Dispute Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
