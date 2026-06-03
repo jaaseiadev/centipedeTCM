@@ -86,7 +86,7 @@
 | SEC-0002 | Mathlete cannot access organizer dashboard | Security Testing | High | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; mathlete account could not access organizer dashboard pages. |
 | SEC-0003 | GET routes do not mutate state | Security Testing | High | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; read-only route checks did not change visible state. |
 | SEC-0004 | Unsafe redirect target is rejected | Security Testing | High | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; unsafe redirect target was rejected or ignored safely. |
-| SEC-0005 | Sensitive tokens are not exposed in URL or logs | Security Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
+| SEC-0005 | Sensitive tokens are not exposed in URL or logs | Security Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. No bearer tokens or secrets spilled in payload parameters. |
 | UI-0001 | Role-based navigation links are displayed | UI Testing | Medium | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; role-based workspace links appeared correctly for tested roles. |
 | UI-0002 | Math notation preview renders correctly | UI Testing | Medium | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; math notation preview rendered readable expressions. |
 | UI-0003 | Arena choices hide internal option IDs | UI Testing | Medium | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; arena answer choices showed user-facing labels without internal option IDs. |
