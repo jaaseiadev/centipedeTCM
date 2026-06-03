@@ -71,11 +71,11 @@
 | HIST-0003 | Organizer views past competitions | History Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Legacy competition history properly filtered in organizer specific view. |
 | HIST-0004 | Published answer review shows score context | History Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Scoring metrics accurately overlay individual answer choices in historical view. |
 | HIST-0005 | Mathlete cannot view unrelated competition history | History Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Solid isolation implemented, cannot snoop across boundaries. |
-| DISP-0001 | Mathlete submits post-competition dispute | Dispute Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| DISP-0002 | Organizer resolves dispute with notes | Dispute Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| DISP-0003 | Organizer rejects dispute with notes | Dispute Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| DISP-0004 | Accepted dispute recalculates affected score | Dispute Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| DISP-0005 | Duplicate dispute for same problem is blocked | Dispute Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
+| DISP-0001 | Mathlete submits post-competition dispute | Dispute Testing | Medium | Verified | @jaasedev | 2026-06-03 | Verified by @jaasedev. The dispute form handles submission perfectly. |
+| DISP-0002 | Organizer resolves dispute with notes | Dispute Testing | Medium | Verified | @jaasedev | 2026-06-03 | Verified by @jaasedev. Dispute resolution properly persists the attached notes. |
+| DISP-0003 | Organizer rejects dispute with notes | Dispute Testing | Medium | Verified | @jaasedev | 2026-06-03 | Verified by @jaasedev. Rejection notes are visible to the mathlete after action. |
+| DISP-0004 | Accepted dispute recalculates affected score | Dispute Testing | High | Tested | @jaasedev | 2026-06-03 | Tested and needs attention. Recalculation logic may need further review. |
+| DISP-0005 | Duplicate dispute for same problem is blocked | Dispute Testing | Medium | Tested | @jaasedev | 2026-06-03 | Tested and needs attention. Ensure duplicate check covers all edge cases. |
 | MON-0001 | Organizer views registered participants | Participant Monitoring Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Tabular listing mapped correctly and parsed registration dates right. |
 | MON-0002 | Organizer views active participant context | Participant Monitoring Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Currently connected mathletes successfully emit presence pings to dashboard. |
 | MON-0003 | Organizer sees team participant context | Participant Monitoring Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Expanding team rows cleanly enumerates every associated member ID. |
