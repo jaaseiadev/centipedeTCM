@@ -7,11 +7,11 @@
 | AUTH-0003 | Strict single-session enforcement replaces old session | Authentication Testing | High | Failed | @jaasedev | 2026-06-03 | Needs to be fixed. Old session was not terminated when logging in from a new device. |
 | AUTH-0004 | User logout clears protected access | Authentication Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Session tokens cleanly destroyed, redirection proper. |
 | AUTH-0005 | Forgot password request sends recovery flow | Authentication Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Password recovery email arrived with working link within seconds. |
-| PROF-0001 | Mathlete completes required profile | Profile Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PROF-0002 | Mathlete updates school and grade level | Profile Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PROF-0003 | Incomplete profile blocks competition registration | Profile Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PROF-0004 | User cannot mutate role from settings | Profile Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PROF-0005 | Complete profile redirects away from setup page | Profile Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
+| PROF-0001 | Mathlete completes required profile | Profile Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Form validated all required fields successfully. |
+| PROF-0002 | Mathlete updates school and grade level | Profile Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Dropdown updates persisted accurately after saving. |
+| PROF-0003 | Incomplete profile blocks competition registration | Profile Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Registration safely blocked with an informative toast warning. |
+| PROF-0004 | User cannot mutate role from settings | Profile Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. API robust; rejected any payload modifying the assigned role. |
+| PROF-0005 | Complete profile redirects away from setup page | Profile Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Transition triggered smoothly after hitting submit. |
 | ORGAPP-0001 | Organizer submits eligibility application | Organizer Application Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | ORGAPP-0002 | Organizer application requires legal consent | Organizer Application Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | ORGAPP-0003 | Organizer application requires personal and organization data | Organizer Application Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
