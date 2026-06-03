@@ -92,8 +92,8 @@
 | UI-0003 | Arena choices hide internal option IDs | UI Testing | Medium | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; arena answer choices showed user-facing labels without internal option IDs. |
 | UI-0004 | Error messages are clear and user-safe | UI Testing | Medium | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; validation and error messages were clear and user-safe. |
 | UI-0005 | Dashboard profile menu shows correct links | UI Testing | Medium | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; dashboard/profile menu links matched the user workspace. |
-| PERF-0001 | Competition search loads within acceptable time | Performance Testing | Low | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PERF-0002 | Arena page loads within acceptable time | Performance Testing | Low | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PERF-0003 | Leaderboard loads within acceptable time | Performance Testing | Low | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PERF-0004 | Notification dropdown opens without noticeable delay | Performance Testing | Low | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| PERF-0005 | Competition list remains usable with many records | Performance Testing | Low | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
+| PERF-0001 | Competition search loads within acceptable time | Performance Testing | Low | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Results parsed and populated comfortably under SLA threshold. |
+| PERF-0002 | Arena page loads within acceptable time | Performance Testing | Low | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. First contentful paint achieved quickly despite heavy components. |
+| PERF-0003 | Leaderboard loads within acceptable time | Performance Testing | Low | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Aggregation logic operates rapidly providing swift score renders. |
+| PERF-0004 | Notification dropdown opens without noticeable delay | Performance Testing | Low | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Popover drops immediately without blocking main execution thread. |
+| PERF-0005 | Competition list remains usable with many records | Performance Testing | Low | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Infinite scroll handles excessive rows smoothly, minimal jank found. |
