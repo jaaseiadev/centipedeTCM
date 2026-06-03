@@ -62,11 +62,11 @@
 | CAL-0003 | Current date is highlighted correctly | Calendar Testing | Low | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; current date was highlighted correctly. |
 | CAL-0004 | Calendar event opens competition details | Calendar Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | CAL-0005 | Updated schedule is reflected on calendar | Calendar Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| LEAD-0001 | Published leaderboard is visible to participant | Leaderboard Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| LEAD-0002 | Scheduled leaderboard is hidden before publish | Leaderboard Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| LEAD-0003 | Team leaderboard ranks teams correctly | Leaderboard Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| LEAD-0004 | Tie-breaker order is visible on leaderboard | Leaderboard Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| LEAD-0005 | Open leaderboard is visible to participant context | Leaderboard Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
+| LEAD-0001 | Published leaderboard is visible to participant | Leaderboard Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Verified ranking loads seamlessly for published events. |
+| LEAD-0002 | Scheduled leaderboard is hidden before publish | Leaderboard Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Confirmed early access is blocked; returns clear forbidden message. |
+| LEAD-0003 | Team leaderboard ranks teams correctly | Leaderboard Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Aggregated team scores match mathematically with members' performances. |
+| LEAD-0004 | Tie-breaker order is visible on leaderboard | Leaderboard Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Time-based tiebreakers are sorting identical scores appropriately. |
+| LEAD-0005 | Open leaderboard is visible to participant context | Leaderboard Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. General population views open tournament results smoothly. |
 | HIST-0001 | Mathlete views published past results | History Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | HIST-0002 | Hidden scheduled leaderboard shows allowed submission state | History Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | HIST-0003 | Organizer views past competitions | History Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
