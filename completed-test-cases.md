@@ -59,8 +59,8 @@
 | CAL-0001 | Calendar displays scheduled competitions | Calendar Testing | Medium | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; scheduled competitions appeared on the calendar. |
 | CAL-0002 | Calendar uses local timezone | Calendar Testing | Medium | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; calendar schedule display matched local timezone expectations. |
 | CAL-0003 | Current date is highlighted correctly | Calendar Testing | Low | Verified | @jaaseiadev | 2026-06-02 | Manual test verified by @jaaseiadev; current date was highlighted correctly. |
-| CAL-0004 | Calendar event opens competition details | Calendar Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| CAL-0005 | Updated schedule is reflected on calendar | Calendar Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
+| CAL-0004 | Calendar event opens competition details | Calendar Testing | Medium | Verified | @jaaseiadev | 2026-06-03 | Verified by @jaaseiadev. Clicking on the calendar event correctly routes to the competition details view. |
+| CAL-0005 | Updated schedule is reflected on calendar | Calendar Testing | Medium | Verified | @jaaseiadev | 2026-06-03 | Tested by @jaaseiadev. Schedule modifications immediately sync and update the calendar UI without refresh. |
 | LEAD-0001 | Published leaderboard is visible to participant | Leaderboard Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Verified ranking loads seamlessly for published events. |
 | LEAD-0002 | Scheduled leaderboard is hidden before publish | Leaderboard Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Confirmed early access is blocked; returns clear forbidden message. |
 | LEAD-0003 | Team leaderboard ranks teams correctly | Leaderboard Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Aggregated team scores match mathematically with members' performances. |
