@@ -32,11 +32,11 @@
 | SCORE-0003 | Difficulty-based scoring applies correct points | Scoring Rules Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | SCORE-0004 | Custom point scoring applies configured values | Scoring Rules Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | SCORE-0005 | Tie-breaker ranks earliest final submission higher | Scoring Rules Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| TEAM-0001 | Mathlete creates a team | Team Management Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| TEAM-0002 | Team leader invites member | Team Management Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| TEAM-0003 | Invited member accepts team invitation | Team Management Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| TEAM-0004 | Team leader removes unlocked member | Team Management Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
-| TEAM-0005 | Registered team roster is locked from changes | Team Management Testing | High | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
+| TEAM-0001 | Mathlete creates a team | Team Management Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Verified team dashboard is generated immediately post-creation. |
+| TEAM-0002 | Team leader invites member | Team Management Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Invite URL is generated correctly and routed via mail. |
+| TEAM-0003 | Invited member accepts team invitation | Team Management Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Target profile seamlessly bound to the team's roster pool. |
+| TEAM-0004 | Team leader removes unlocked member | Team Management Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Evicted member loses team-dependent scope right away. |
+| TEAM-0005 | Registered team roster is locked from changes | Team Management Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Edit controls are strictly disabled post confirmation. |
 | SEARCH-0001 | Mathlete searches upcoming competitions | Competition Search Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | SEARCH-0002 | Mathlete views competition description | Competition Search Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
 | SEARCH-0003 | Mathlete views upcoming competition list | Competition Search Testing | Medium | Started | @jaaseiadev | 2026-06-02 | Started for manual test tracking; execution comments pending. |
