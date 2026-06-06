@@ -20,7 +20,7 @@
 | PBANK-0002 | Organizer adds multiple choice problem | Problem Bank Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Options mapped and correctly identified the right answer key. |
 | PBANK-0003 | Organizer adds true or false problem | Problem Bank Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Boolean fields switch nicely, validation passes properly. |
 | PBANK-0004 | Organizer adds numeric problem with accepted answers | Problem Bank Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Number evaluations match acceptable threshold logic easily. |
-| PBANK-0005 | Invalid problem data cannot be saved | Problem Bank Testing | High | Failed | @jaasedev | 2026-06-03 | Needs to be implemented. Invalid data submission is uncaught correctly across fields. |
+| PBANK-0005 | Invalid problem data cannot be saved | Problem Bank Testing | High | Verified | @jaaseiadev | 2026-06-06 | Tested and verified by @jaaseiadev. Invalid data submission is correctly blocked. |
 | COMP-0001 | Organizer creates scheduled individual competition | Competition Wizard Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. The competition wizard progressed seamlessly with individual configuration. |
 | COMP-0002 | Organizer cannot publish incomplete competition | Competition Wizard Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Publish button remains disabled and shows validation hints. |
 | COMP-0003 | Organizer creates scheduled team competition | Competition Wizard Testing | High | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Team competition creation pipeline stores settings flawlessly. |
@@ -74,8 +74,8 @@
 | DISP-0001 | Mathlete submits post-competition dispute | Dispute Testing | Medium | Verified | @jaasedev | 2026-06-03 | Verified by @jaasedev. The dispute form handles submission perfectly. |
 | DISP-0002 | Organizer resolves dispute with notes | Dispute Testing | Medium | Verified | @jaasedev | 2026-06-03 | Verified by @jaasedev. Dispute resolution properly persists the attached notes. |
 | DISP-0003 | Organizer rejects dispute with notes | Dispute Testing | Medium | Verified | @jaasedev | 2026-06-03 | Verified by @jaasedev. Rejection notes are visible to the mathlete after action. |
-| DISP-0004 | Accepted dispute recalculates affected score | Dispute Testing | High | Tested | @jaasedev | 2026-06-03 | Tested and needs attention. Recalculation logic may need further review. |
-| DISP-0005 | Duplicate dispute for same problem is blocked | Dispute Testing | Medium | Tested | @jaasedev | 2026-06-03 | Tested and needs attention. Ensure duplicate check covers all edge cases. |
+| DISP-0004 | Accepted dispute recalculates affected score | Dispute Testing | High | Verified | @jaaseiadev | 2026-06-06 | Tested and verified by @jaaseiadev. |
+| DISP-0005 | Duplicate dispute for same problem is blocked | Dispute Testing | Medium | Verified | @jaaseiadev | 2026-06-06 | Tested and verified by @jaaseiadev. |
 | MON-0001 | Organizer views registered participants | Participant Monitoring Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Tabular listing mapped correctly and parsed registration dates right. |
 | MON-0002 | Organizer views active participant context | Participant Monitoring Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Currently connected mathletes successfully emit presence pings to dashboard. |
 | MON-0003 | Organizer sees team participant context | Participant Monitoring Testing | Medium | Verified | @jaasedev | 2026-06-03 | Manual test verified by @jaasedev. Expanding team rows cleanly enumerates every associated member ID. |
